@@ -1,35 +1,151 @@
 {
-  "genres": [
-    {
-      "_id": 1,
-      "name": "Action"
-    },
-    {
-      "_id": 2,
-      "name": "Comedy"
-    }
-  ],
+	"genres": [{
+			"_id": "5cc9d8e35423df732913cc58",
+			"name": "Comedy"
+		},
+		{
+			"_id": "5cc9d8e45423df732913cc5f",
+			"name": "Action"
+		},
+		{
+			"_id": "5cc9d8e45423df732913cc66",
+			"name": "Romance"
+		},
+		{
+			"_id": "5cc9d8e45423df732913cc6d",
+			"name": "Thriller"
+		}
+	],
 
-  "movies": [
-    {
-      "_id": 1,
-      "title": "Airplane",
-      "numberInStock": 5,
-      "dailyRentalRate": 2,
-      "genre": {
-        "_id": 2,
-        "name": "Comedy"
-      }
-    },
-     {
-      "_id": 2,
-      "title": "Spider-Man 3",
-      "numberInStock": 15,
-      "dailyRentalRate": 5,
-      "genre": {
-        "_id": 1,
-        "name": "Action"
-      }
-    }
-  ]
+	"movies": [{
+			"_id": "5cc9d8e35423df732913cc59",
+			"title": "Airplane",
+			"numberInStock": 5,
+			"dailyRentalRate": 2,
+			"genre": {
+				"_id": "5cc9d8e35423df732913cc58",
+				"name": "Comedy"
+			}
+		},
+		{
+			"_id": "5cc9d8e45423df732913cc60",
+			"title": "Die Hard",
+			"numberInStock": 5,
+			"dailyRentalRate": 2,
+			"genre": {
+				"_id": "5cc9d8e45423df732913cc5f",
+				"name": "Action"
+			}
+		},
+		{
+			"_id": "5cc9d8e45423df732913cc70",
+			"title": "Gone Girl",
+			"numberInStock": 10,
+			"dailyRentalRate": 2,
+			"genre": {
+				"_id": "5cc9d8e45423df732913cc6d",
+				"name": "Thriller"
+			}
+		},
+		{
+			"_id": "5cc9d8e45423df732913cc6b",
+			"title": "Pretty Woman",
+			"numberInStock": 15,
+			"dailyRentalRate": 2,
+			"genre": {
+				"_id": "5cc9d8e45423df732913cc66",
+				"name": "Romance"
+			}
+		},
+		{
+			"_id": "5cc9e1ec7f7f9b76890ca7a9",
+			"title": "Spider-Man 3",
+			"genre": {
+				"_id": "5cc9d8e45423df732913cc5f",
+				"name": "Action"
+			},
+			"numberInStock": 15,
+			"dailyRentalRate": 5
+		},
+		{
+			"_id": "5cc9d8e45423df732913cc62",
+			"title": "Terminator",
+			"numberInStock": 10,
+			"dailyRentalRate": 2,
+			"genre": {
+				"_id": "5cc9d8e45423df732913cc5f",
+				"name": "Action"
+			}
+		},
+		{
+			"_id": "5cc9d8e45423df732913cc64",
+			"title": "The Avengers",
+			"numberInStock": 15,
+			"dailyRentalRate": 2,
+			"genre": {
+				"_id": "5cc9d8e45423df732913cc5f",
+				"name": "Action"
+			}
+		},
+		{
+			"_id": "5cc9d8e35423df732913cc5b",
+			"title": "The Hangover",
+			"numberInStock": 10,
+			"dailyRentalRate": 2,
+			"genre": {
+				"_id": "5cc9d8e35423df732913cc58",
+				"name": "Comedy"
+			}
+		},
+		{
+			"_id": "5cc9d8e45423df732913cc67",
+			"title": "The Notebook",
+			"numberInStock": 5,
+			"dailyRentalRate": 2,
+			"genre": {
+				"_id": "5cc9d8e45423df732913cc66",
+				"name": "Romance"
+			}
+		},
+		{
+			"_id": "5cc9d8e45423df732913cc72",
+			"title": "The Others",
+			"numberInStock": 15,
+			"dailyRentalRate": 2,
+			"genre": {
+				"_id": "5cc9d8e45423df732913cc6d",
+				"name": "Thriller"
+			}
+		},
+		{
+			"_id": "5cc9d8e45423df732913cc6e",
+			"title": "The Sixth Sense",
+			"numberInStock": 5,
+			"dailyRentalRate": 2,
+			"genre": {
+				"_id": "5cc9d8e45423df732913cc6d",
+				"name": "Thriller"
+			}
+		},
+		{
+			"_id": "5cc9d8e35423df732913cc5d",
+			"title": "Wedding Crashers",
+			"numberInStock": 15,
+			"dailyRentalRate": 2,
+			"genre": {
+				"_id": "5cc9d8e35423df732913cc58",
+				"name": "Comedy"
+			}
+		},
+		{
+			"_id": "5cc9d8e45423df732913cc69",
+			"title": "When Harry Met Sally",
+			"numberInStock": 10,
+			"dailyRentalRate": 2,
+			"genre": {
+				"_id": "5cc9d8e45423df732913cc66",
+				"name": "Romance"
+			}
+		}
+	]
 }
