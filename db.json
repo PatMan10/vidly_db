@@ -20,7 +20,7 @@
         "_id": 2,
         "name": "Comedy"
       }
-     },
+    },
      {
       "_id": 2,
       "title": "Spider-Man 3",
@@ -30,6 +30,6 @@
         "_id": 1,
         "name": "Action"
       }
-     },
+    }
   ]
 }
