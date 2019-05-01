@@ -1,12 +1,35 @@
 {
   "genres": [
     {
-      "id": 1,
+      "_id": 1,
       "name": "Action"
     },
     {
-      "id": 2,
+      "_id": 2,
       "name": "Comedy"
     }
+  ],
+
+  "movies": [
+    {
+      "_id": 1,
+      "title": "Airplane",
+      "numberInStock": 5,
+      "dailyRentalRate": 2,
+      "genre": {
+        "_id": 2,
+        "name": "Comedy"
+      }
+     },
+     {
+      "_id": 2,
+      "title": "Spider-Man 3",
+      "numberInStock": 15,
+      "dailyRentalRate": 5,
+      "genre": {
+        "_id": 1,
+        "name": "Action"
+      }
+     },
   ]
 }
